@@ -21,6 +21,7 @@ const Registration = () => {
       },
     });
   console.log(errors);
+  console.log(Object.keys(errors).length === 0);
 
   return (
     <>
@@ -106,9 +107,6 @@ const Registration = () => {
                     ) : null}
                   </div>
                   <div className="modal-buttons">
-                    {/* <a href="#" className="">
-                      Want to register using Gmail?
-                    </a> */}
                     <button
                       className="input-button"
                       type="submit"
@@ -117,7 +115,7 @@ const Registration = () => {
                         values.email === "" ||
                         values.password === "" ||
                         values.confirm_password === "" ||
-                        errors
+                        Object.keys(errors).length !== 0
                       }
                     >
                       Sign Up
