@@ -27,7 +27,7 @@ Formik provides a set of tools and abstractions to simplify the process of worki
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/form-validation-with-formik-and-yup.git
+   git clone https://github.com/AyushiBadika/Email-validation-with-formik-and-yup.git
    ```
 
 2. Navigate to the project directory:
