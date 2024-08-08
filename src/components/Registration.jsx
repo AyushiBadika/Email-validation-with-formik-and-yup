@@ -116,7 +116,8 @@ const Registration = () => {
                         values.name === "" ||
                         values.email === "" ||
                         values.password === "" ||
-                        values.confirm_password === ""
+                        values.confirm_password === "" ||
+                        errors
                       }
                     >
                       Sign Up
