@@ -3,7 +3,7 @@ import * as Yup from "yup";
 export const signUpSchema = Yup.object({
   name: Yup.string().min(2).max(25).required("Please enter name"),
   email: Yup.string()
-    .email()
+    .email("Invalid Email")
     .required("Please enter email")
     .oneOf(["ayushi@gmail.com", null], "Email must be ayushi@gmail.com"),
   password: Yup.string()
