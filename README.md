@@ -21,6 +21,7 @@ Formik provides a set of tools and abstractions to simplify the process of worki
 - [React](https://reactjs.org/)
 - [Formik](https://formik.org/)
 - [Yup](https://github.com/jquense/yup)
+- [Styled-components](https://styled-components.com/)
 
 ## Installation
 

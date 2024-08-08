@@ -21,7 +21,6 @@ const Registration = () => {
       },
     });
   console.log(errors);
-  console.log(Object.keys(errors).length === 0);
 
   return (
     <>
