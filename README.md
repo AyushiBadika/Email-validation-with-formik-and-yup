@@ -30,13 +30,7 @@ Formik provides a set of tools and abstractions to simplify the process of worki
    git clone https://github.com/AyushiBadika/Email-validation-with-formik-and-yup.git
    ```
 
-2. Navigate to the project directory:
-
-   ```
-   cd form-validation-with-formik-and-yup
-   ```
-
-3. Install the dependencies:
+2. Install the dependencies:
 
    ```
    npm install
