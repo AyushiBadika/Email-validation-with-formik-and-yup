@@ -6,14 +6,14 @@ export const signUpSchema = Yup.object({
     .email("Please enter a valid email address")
     .test(
       "is-ayushi-email",
-      "Email must be ayushi@gmail.com",
-      (email) => email === "ayushi@gmail.com"
+      "Email must be regex@gmail.com",
+      (email) => email === "regex@gmail.com"
     )
     .required("Please enter an email"),
   password: Yup.string()
     .min(8)
     .required("Please enter password")
-    .oneOf(["Ayu@badika", null], "Password Hint : A__@___i_a"),
+    .oneOf(["rishiME@199", null], "Password Hint : r__h___@__9"),
   confirm_password: Yup.string()
     .min(8)
 
